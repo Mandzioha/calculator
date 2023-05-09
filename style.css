@@ -1,0 +1,29 @@
+main {
+  width: 240px;
+  border: 1px solid gray;
+  padding: 20px;
+  background-color: lightgray;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+button {
+  font-size: 1.2rem;
+  margin: 5px;
+  width: 60px;
+  height: 40px;
+  background-image: linear-gradient(white, lightblue);
+}
+
+#res{
+  text-align: right;
+  width: 90%;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: lightblue;
+}
